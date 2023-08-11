@@ -1,0 +1,85 @@
+.qustion {
+  background-color: #fbfafb;
+  padding-bottom: 70px;
+  padding-top: 100px;
+}
+
+.conques {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.titqus h2 {
+  color: #3094ea;
+  font-size: 2rem;
+}
+
+.listqus {
+    display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+ 
+}
+
+.itemqus {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 800px;
+  
+}
+
+.itemqus h4 {
+  color: #7c7d8a;
+}
+
+.itemqus h4:hover{
+    cursor: pointer;
+}
+
+.cirbtnqus {
+  background-color: #3094ea;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+.line{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+hr{
+  
+        background: #a1a1a1;
+        height: 1px;
+        border: none;
+        width: 800px;
+      
+}
+
+.qusmor{
+    width: 100%;
+    color: #3094ea;
+    text-align: right;
+    direction: rtl;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+.btnlin{
+    width: 100px;
+}
+
+.buttomqus{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.buttomqus h3
+{   font-size: 1.5rem;
+    color: #7c7d8a;
+}

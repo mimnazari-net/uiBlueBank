@@ -1,0 +1,45 @@
+.Identity {
+  background-color: #fbfafb;
+  padding: 140px 0;
+
+  width: 100%;
+  height: 500px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-bottom: 200px;
+}
+
+.txtidnty {
+  margin-right: 60px;
+  width: 570px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.txtidnty h3 {
+  font-size: 2rem;
+  color: #3094ea;
+  margin-bottom: 0px;
+}
+
+.txtidnty p {
+  font-size: 20px;
+  color: #7c7d8a;
+  direction: rtl;
+  text-align: right;
+}
+.vididnty {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.vididnty video {
+  width: 630px;
+  height: 550px;
+}

@@ -1,0 +1,45 @@
+.Trasfotm {
+  width: 1100px;
+  height: 500px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-bottom: 200px;
+}
+.contrfrm{
+    display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.txttrsfrm{
+    width: 570px;
+    margin-right: 60px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.txttrsfrm h3 {
+
+  font-size: 2rem;
+  color: #3094ea;
+  margin-bottom: 0px;
+}
+
+.txttrsfrm p {
+  font-size: 20px;
+  color: #7c7d8a;
+  direction: rtl;
+  text-align: right;
+}
+
+.vidtrsfrm video {
+    width: 630px;
+    height: 550px;
+  }

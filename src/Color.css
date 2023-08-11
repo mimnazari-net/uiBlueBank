@@ -1,0 +1,82 @@
+.color {
+  width: 1100px;
+  height: 500px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-bottom: 200px;
+}
+.txtcolor {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  direction: rtl;
+  text-align: right;
+}
+
+.txtcolor h3 {
+  color: #3094ea;
+}
+.colorcart {
+  width: 70%;
+}
+.carts {
+  width: 90%;
+}
+.btncolor {
+  width: 80%;
+  display: flex;
+  justify-content: flex-end;
+}
+.btncolor button {
+    cursor: pointer;
+    margin: 0 3px;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+.redbtncolor {
+ 
+  background-color: red;
+}
+.greenbtncolor {
+ 
+  background-color: green;
+}
+.bluebtncolor {
+ 
+  background-color: #3094ea;
+}
+.cartsimg {
+  width: 500px;
+  height: 500px;
+  animation-duration: 5s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-fill-mode: none;
+  animation-play-state: running;
+  animation-name: ImgBounce;
+}
+
+.listcolors {
+  width: 300px;
+  margin: 0px 0;
+  padding: 0px;
+}
+
+.listcolors li {
+  list-style: square;
+  padding: 0;
+  margin: 30px 0;
+}
+
+li::marker {
+  color: #3094ea;
+}
